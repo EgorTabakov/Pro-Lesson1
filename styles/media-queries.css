@@ -1,0 +1,396 @@
+@media screen and (max-width: 1600px) {
+    .container2 {
+        width: auto;
+
+
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .badge {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .container {
+        width: auto;
+        padding: 0 20px 0 20px;
+
+    }
+
+    .subscribeLeft {
+
+        border-right: none;
+
+    }
+
+    .category {
+        height: auto;
+    }
+
+    .featuredItems {
+        height: 1488px;
+        margin: 20px 150px 20px 200px;
+    }
+
+    .feature {
+        height: auto;
+    }
+
+    .featureBanner {
+        margin: auto;
+    }
+
+    .featureBox {
+        width: 767px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .featureBoxText {
+        width: auto;
+        margin-top: -35px;
+        margin-left: 125px;
+    }
+
+    .featureBoxText p:nth-child(2) {
+        width: auto;
+    }
+
+    .subscribeBanner {
+
+        width: 522px;
+
+    }
+
+    .subscribeBanner {
+        height: auto;
+    }
+
+    .subscribePerson {
+        margin-top: 10px;
+    }
+
+    .subscribeForm {
+        margin-left: 75px;
+        margin-top: 50px;
+    }
+
+    .footer {
+        height: auto;
+        justify-content: center;
+        margin: 0 20px;
+    }
+
+    .brand {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .shippingAdress {
+        width: 360px;
+    }
+
+    .couponDiscount {
+        width: 360px;
+    }
+
+    .checkout {
+        height: 430px;
+    }
+
+    .processCheckout {
+        height: 60px;
+        background-color: #f5f3f3;
+        margin-top: 10px;
+        display: flex;
+        width: 800px;
+        justify-content: space-around;
+        align-items: center;
+        text-align: unset;
+        padding: 0;
+    }
+
+    .Subtotal {
+        color: #4a4a4a;
+        font-size: 11px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+    }
+
+    .Subtotal span {
+        padding-left: 10px;
+    }
+
+    .GrandTotal {
+        color: #222222;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+
+    .GrandTotal span {
+        color: #f16d7f;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+
+    .processCheckout button {
+        margin-top: 0;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: auto;
+        padding: 0 5px 0 5px;
+    }
+
+    .header {
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        line-height: 60px;
+        margin-top: 10px;
+        width: unset;
+    }
+
+    .headerCart {
+        display: none;
+    }
+
+    .accountBtn {
+        margin-top: 10px;
+    }
+
+    .searchBrowse {
+        padding: 0;
+    }
+
+    .topNav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .topNav a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .topMan {
+        background: none;
+        height: 120px;
+    }
+
+    .bannerText {
+        top: 10px;
+        width: 100%;
+    }
+
+    .bannerText h2 {
+        font-size: 46px;
+    }
+
+    .bannerText span:nth-child(2) {
+        font-size: 21px;
+    }
+
+    .bannerText span:nth-child(3) {
+        font-size: 21px;
+    }
+
+    .category {
+        margin-top: 10px;
+    }
+
+    .product1 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .product2 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .product3 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .product4 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .featuredItemsHeader {
+        margin-top: 10px;
+    }
+
+    .featuredItems {
+        align-items: center;
+        height: 2976px;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .itemsProduct {
+        margin-right: 0;
+    }
+
+    .allProduct {
+        margin-top: 5px;
+    }
+
+    .feature {
+        margin-top: 10px;
+    }
+
+    .featureBanner {
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+
+    }
+
+    .featureBannerText {
+        margin-top: 50px;
+    }
+
+    .subscribeWrap {
+        margin-top: 5px;
+    }
+
+    .subscribeBanner {
+        align-items: center;
+    }
+
+    .subscribeLeft {
+        width: unset;
+    }
+
+    .subscribeRight {
+        width: unset;
+    }
+
+    .subscribePerson {
+        width: 320px;
+        margin-top: 0;
+    }
+
+    .subscribePerson p:nth-child(2) {
+        margin-right: 10px;
+    }
+
+    .subscribeForm {
+        width: 320px;
+        margin-left: 0;
+    }
+
+    .subscribeForm input {
+        width: 120px;
+    }
+
+    .brand {
+        height: unset;
+
+    }
+
+    .company {
+        width: 100%;
+        margin-top: 5px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .information {
+        width: 100%;
+        margin-top: 10px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .shopCategory {
+        width: 100%;
+        margin-top: 10px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+
+    .shoppingCartHeader {
+        display: none;
+    }
+
+    .shippingAdress {
+        width: 360px;
+    }
+
+    .couponDiscount {
+        width: 360px;
+    }
+
+    .checkout {
+        height: 680px;
+    }
+
+    .processCheckout {
+        height: 60px;
+        background-color: #f5f3f3;
+        margin-top: 10px;
+        display: flex;
+        width: 800px;
+        justify-content: space-around;
+        align-items: center;
+        text-align: unset;
+        padding: 0;
+    }
+
+    .Subtotal {
+        color: #4a4a4a;
+        font-size: 11px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+    }
+
+    .Subtotal span {
+        padding-left: 10px;
+    }
+
+    .GrandTotal {
+        color: #222222;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+
+    .GrandTotal span {
+        color: #f16d7f;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+
+    .processCheckout button {
+        margin-top: 0;
+
+    }
+}
