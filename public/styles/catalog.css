@@ -204,6 +204,7 @@ aside:hover {
   height: 6px;
   border: none;
   background-color: #f16d7f;
+  outline: none;
 }
 
 .mainWrap .rowPrice span {
@@ -265,6 +266,7 @@ aside:hover {
   font-size: 14px;
   font-weight: 500;
   padding-left: 5px;
+  outline: none;
 }
 
 .mainWrap .sort label {
@@ -293,6 +295,7 @@ aside:hover {
   font-size: 14px;
   font-weight: 500;
   padding-left: 5px;
+  outline: none;
 }
 
 .mainWrap .show label {
@@ -447,30 +450,60 @@ aside:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 44px;
   width: inherit;
   margin-top: 43px;
 }
 
 .mainWrap nav {
-  display: inline-block;
   width: 261px;
   height: 44px;
   border-radius: 3px;
   border: 1px solid #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .mainWrap nav li {
-  list-style: none;
-  height: 30px;
   display: inline-block;
 }
 
 .mainWrap nav a {
   color: #c4c4c4;
   font-size: 16px;
+  font-weight: 200;
+  line-height: 26px;
+  letter-spacing: 7px;
+}
+
+.mainWrap nav a:hover {
+  color: #f16d7f;
+}
+
+.mainWrap button {
+  width: 150px;
+  height: 44px;
+  border-radius: 3px;
+  border: 1px solid #f16d7f;
+  background-color: #ffffff;
+  color: #f16d7f;
+  font-size: 16px;
   font-weight: bold;
   line-height: 26px;
+}
+
+.mainWrap button:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
 }
 
 .catalogFeature {

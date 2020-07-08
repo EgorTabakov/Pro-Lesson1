@@ -133,7 +133,7 @@
                 <div class="row">
                     <div class="rowPrice">
                         <h2>price</h2>
-                        <input type="range" name="price" id="price" multiple min="52" max="400">
+                        <input type="range" name="price" id="slider-range" multiple min="52" max="400">
                         <span>52$</span><span>400$</span>
 
                     </div>
@@ -217,21 +217,27 @@
                         <ul class="pagination">
                             <li class="page-item">
                                 <a class="page-link" href="#" aria-label="Previous">
-                                    <i class="far fa-chevron-left"></i>
+                                    <i class="fas fa-chevron-left"></i>
                                     <span class="sr-only">Previous</span>
                                 </a>
                             </li>
                             <li class="page-item"><a class="page-link" href="#">1</a></li>
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#">6</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">20</a></li>
                             <li class="page-item">
                                 <a class="page-link" href="#" aria-label="Next">
-                                    <i class="far fa-chevron-right"></i>
+                                    <i class="fas fa-chevron-right"></i>
                                     <span class="sr-only">Next</span>
                                 </a>
                             </li>
                         </ul>
                     </nav>
+                    <button class="viewAll" aria-label="view-all">View All</button>
                 </div>
             </div>
 
@@ -359,8 +365,8 @@
         </div>
     </div>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-
     <script src="src/components/js/accordion.js"></script>
+    
 </body>
 
 </html>

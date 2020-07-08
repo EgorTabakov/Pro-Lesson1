@@ -156,6 +156,7 @@ aside
             height: 6px
             border: none
             background-color: $mainTextColor
+            outline: none
         span 
             padding-top: 20px   
 
@@ -175,9 +176,6 @@ aside
         text-decoration: none
         padding-right: 2px
         line-height: 20px
-    
-
-    
     
 
     .filter
@@ -208,6 +206,7 @@ aside
             font-size: 14px
             font-weight: 500
             padding-left: 5px
+            outline: none
             
         label
             color: #6f6e6e
@@ -232,6 +231,7 @@ aside
             font-size: 14px
             font-weight: 500
             padding-left: 5px
+            outline: none
             
         label
             color: #6f6e6e
@@ -364,26 +364,46 @@ aside
         flex-direction: row
         flex-wrap: wrap
         align-items: center
+        justify-content: space-between
         height: 44px
         width: inherit
         margin-top: 43px
 
     nav
-        display: inline-block
         width: 261px
         height: 44px
         border-radius: 3px
         border: 1px solid #ebebeb
+        display: flex
+        align-items: center
+        justify-content: space-around
+
         li 
-            list-style: none
-            height: 30px
             display: inline-block
             
         a 
             color: #c4c4c4
             font-size: 16px
-            font-weight: bold
+            font-weight: 200
             line-height: 26px
+            letter-spacing: 7px
+        a:hover
+            color: $mainTextColor 
+    button
+        width: 150px
+        height: 44px
+        border-radius: 3px
+        border: 1px solid $mainTextColor
+        background-color: #ffffff
+        color: $mainTextColor
+        font-size: 16px
+        font-weight: bold
+        line-height: 26px
+        
+    button:hover
+        background-color: $mainTextColor
+        color: #ffffff
+
 
 
 
