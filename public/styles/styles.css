@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@200300400700800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -126,6 +126,7 @@ body p {
 .topNav {
   height: 51px;
   font-weight: 700;
+  font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,6 +136,8 @@ body p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 0px 10px 15px #e8e8e8;
+          box-shadow: 0px 10px 15px #e8e8e8;
 }
 
 .topNav a {
@@ -167,7 +170,7 @@ body p {
   position: absolute;
   top: 245px;
   height: 92px;
-  width: 507px;
+  width: 528px;
   border-left: 12px solid #f16d7f;
 }
 
