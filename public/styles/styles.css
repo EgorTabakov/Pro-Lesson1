@@ -12,8 +12,8 @@ body p {
 }
 
 .container {
-  width: 1140px;
   margin: auto;
+  padding: 0px;
 }
 
 .container2 {
@@ -52,6 +52,15 @@ body p {
   color: #222222;
 }
 
+.log {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .logo {
   width: 165px;
   line-height: 51px;
@@ -81,6 +90,7 @@ body p {
   height: 38px;
   overflow: hidden;
   font-size: 14px;
+  width: 332px;
 }
 
 .searchBrowse {
@@ -115,8 +125,11 @@ body p {
 }
 
 .headerCart {
-  margin-left: auto;
   margin-right: 26px;
+}
+
+.accountCart {
+  margin-left: auto;
 }
 
 .accountBtn {
@@ -136,6 +149,11 @@ body p {
   border-bottom: 1px solid #ececec;
 }
 
+.topNavWrap {
+  -webkit-box-shadow: 0px 10px 15px #e8e8e8;
+          box-shadow: 0px 10px 15px #e8e8e8;
+}
+
 .topNav {
   height: 51px;
   font-weight: 700;
@@ -149,8 +167,8 @@ body p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0px 10px 15px #e8e8e8;
-          box-shadow: 0px 10px 15px #e8e8e8;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .topNav a {
@@ -183,7 +201,7 @@ body p {
   position: absolute;
   top: 245px;
   height: 92px;
-  width: 528px;
+  width: 540px;
   border-left: 12px solid #f16d7f;
 }
 
@@ -218,7 +236,6 @@ body p {
 }
 
 .category {
-  height: 814px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,28 +259,28 @@ body p {
 }
 
 .product1 {
-  width: 560px;
+  width: 49%;
   height: 542px;
   background: url("../src/assets/img/offer1.jpg") no-repeat;
   background-size: cover;
 }
 
 .product2 {
-  width: 560px;
+  width: 49%;
   height: 261px;
   background: url("../src/assets/img/offer2.jpg") no-repeat;
   background-size: cover;
 }
 
 .product3 {
-  width: 560px;
+  width: 49%;
   height: 261px;
   background: url("../src/assets/img/offer3.jpg") no-repeat;
   background-size: cover;
 }
 
 .product4 {
-  width: 560px;
+  width: 49%;
   height: 542px;
   background: url("../src/assets/img/offer4.jpg") no-repeat;
   background-size: cover;
@@ -300,14 +317,13 @@ body p {
 }
 
 .featuredItems {
-  height: 744px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: justify;
@@ -343,7 +359,6 @@ body p {
   width: 252px;
   height: 352px;
   position: relative;
-  margin-right: 42px;
 }
 
 .itemsProduct1 {
@@ -507,6 +522,7 @@ body p {
 }
 
 .featureBox {
+  height: 529px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -528,7 +544,7 @@ body p {
 
 .featureBoxText {
   width: 219px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 33px;
 }
 
