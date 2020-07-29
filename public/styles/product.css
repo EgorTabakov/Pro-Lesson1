@@ -46,6 +46,12 @@
 
 .productDescriptionWrap {
   height: 760px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .productDescriptionWrap .productDescription {
@@ -68,8 +74,6 @@
           justify-content: center;
   position: absolute;
   z-index: 2000;
-  left: 50%;
-  margin-left: -570px;
   -ms-flex-line-pack: start;
       align-content: flex-start;
 }

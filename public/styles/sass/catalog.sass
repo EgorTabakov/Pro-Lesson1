@@ -1,4 +1,4 @@
-$mainTextColor: #f16d7f
+@import "variables"
 
  
 .newArrivalsWrap
@@ -38,7 +38,7 @@ $mainTextColor: #f16d7f
   
 aside
     width: 243px
-    height: 1150px
+    height: auto
     float: left 
     
     
@@ -105,12 +105,12 @@ aside
         color: #fff
     
 .mainWrap
-    width: 845px
     margin-left: 293px
     margin-top: 60px
     display: flex
     flex-direction: row
     flex-wrap: wrap
+    
     
     
     .row
@@ -179,7 +179,7 @@ aside
     
 
     .filter
-        width: 846px
+        width: 100%
         height: 50px
         background-color: #f3f3f3
         margin-top: 43px
@@ -198,7 +198,6 @@ aside
         
         input
             width: 60px
-            height: 30px
             border: none
             border-left: 1px solid #ebebeb
             background-color: #ffffff
@@ -223,7 +222,6 @@ aside
         
         input
             width: 40px
-            height: 30px
             border: none
             border-left: 1px solid #ebebeb
             background-color: #ffffff
@@ -242,9 +240,9 @@ aside
     
     
     .catalogItems 
-        height: 1116px
+        height: auto
         display: flex
-        flex-direction: column
+        flex-direction: row
         flex-wrap: wrap
         justify-content: space-between
         align-items: center
@@ -275,7 +273,7 @@ aside
             width: 252px
             height: 352px
             position: relative
-            margin-right: 42px
+            margin-right: auto
 
 
         .itemsProduct1 
@@ -371,7 +369,7 @@ aside
 
     nav
         width: 261px
-        height: 44px
+        height: 10px
         border-radius: 3px
         border: 1px solid #ebebeb
         display: flex

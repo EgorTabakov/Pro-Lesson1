@@ -15,29 +15,34 @@
 <body>
     <header class="headerFix">
         <div class="container header">
-
-            <a class="logo" href="#">
-                Bran<span>d</span>
-            </a>
-
+            <div class="log">
+                <a class="logo" href="#">
+                    Bran<span>d</span>
+                </a>
+            </div>
             <form method="get" class="search">
                 <div class="searchBrowse">Browse <i class="fas fa-caret-down"></i></div>
                 <input name="search" type="text" placeholder="Search for Item...">
                 <button><i class="fas fa-search"></i></button>
             </form>
-            <img src="src/assets/img/cart.png" alt="" class="headerCart">
-            <button class="accountBtn">My Account <i class="fas fa-caret-down"></i></button>
+            <div class="accountCart">
+                <img src="src/assets/img/cart.png" alt="" class="headerCart">
+                <button class="accountBtn">My Account <i class="fas fa-caret-down"></i></button>
+            </div>
+        </div>
         </div>
         <div class="headerLine"></div>
-        <nav class="topNav container">
-            <a href="#">Home</a>
-            <a href="#">Man</a>
-            <a href="#">Women</a>
-            <a href="#">Kids</a>
-            <a href="#">Accoseriese</a>
-            <a href="#">Featured</a>
-            <a href="#">Hot Deals</a>
-        </nav>
+        <div class="topNavWrap container-fluid">
+            <nav class="topNav container">
+                <a href="#">Home</a>
+                <a href="#">Man</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Accoseriese</a>
+                <a href="#">Featured</a>
+                <a href="#">Hot Deals</a>
+            </nav>
+        </div>
 
     </header>
     <main>
@@ -81,47 +86,10 @@
             <h2>Fetured Items</h2>
             <p>Shop for items based on what we featured in this week</p>
         </div>
-        <div class="featuredItems container">
-            <sect class="itemsProduct itemsProduct1">
-                <h3>Mango People T-shirt</h3>
-                <p>$52.00</p>
-                <button class="itemsCart">Add to Cart</button>
-            </sect>
-            <div class="itemsProduct itemsProduct2">
-                <h3>Mango People T-shirt</h3>
-                <p>$52.00</p>
-                <button class="itemsCart">Add to Cart</button>
+        <div class="featuredItems itemJS container">
+            <div class="itemsProduct itemsProduct1">
             </div>
-            <div class="itemsProduct itemsProduct3">
-                <h3>Mango People T-shirt</h3>
-                <p>$52.00</p>
-                <button class="itemsCart">Add to Cart</button>
-            </div>
-            <div class="itemsProduct itemsProduct4">
-                <h3>Mango People T-shirt</h3>
-                <p>$52.00</p>
-                <button class="itemsCart">Add to Cart</button>
-            </div>
-            <div class="itemsProduct itemsProduct5">
-                <h3>Mango People T-shirt</h3>
-                <p>$52.00</p>
-                <button class="itemsCart">Add to Cart</button>
-            </div>
-            <div class="itemsProduct itemsProduct6">
-                <h3>Mango People T-shirt</h3>
-                <p>$52.00</p>
-                <button class="itemsCart">Add to Cart</button>
-            </div>
-            <div class="itemsProduct itemsProduct7">
-                <h3>Mango People T-shirt</h3>
-                <p>$52.00</p>
-                <button class="itemsCart">Add to Cart</button>
-            </div>
-            <div class="itemsProduct itemsProduct8">
-                <h3>Mango People T-shirt</h3>
-                <p>$52.00</p>
-                <button class="itemsCart">Add to Cart</button>
-            </div>
+        </div>
 
         </div>
         <div class="allProduct container">
@@ -156,10 +124,10 @@
             </div>
         </div>
     </main>
-    <div class="subscribeWrap container2">
-        <div class="subscribe container2">
+    <div class="subscribeWrap container-fluid">
+        <div class="subscribe container-fluid">
             <div class="subscribeBanner container">
-                <div class="subscribeLeft">
+                <div class="subscribeLeft col-lg-6 col-md-12">
                     <div class="subscribePerson">
                         <img src="src/assets/img/person.png" alt="person">
                         <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
@@ -171,7 +139,7 @@
                         <div class="subscribeBannersNav3"></div>
                     </div>
                 </div>
-                <div class="subscribeRight">
+                <div class="subscribeRight col-lg-6 col-md-12">
                     <form class="subscribeForm" method="get">
                         <div class="subscribeText">
                             <p>Subscribe</p>
@@ -187,9 +155,9 @@
             </div>
         </div>
     </div>
-    <footer class="container2">
+    <footer class="container-fluid">
         <div class="footer container">
-            <div class="brand">
+            <div class="brand col-xl-4 col-lg-12">
                 <a class="logo" href="#">
                     Bran<span>d</span>
                 </a>
@@ -235,7 +203,7 @@
             </nav>
         </div>
     </footer>
-    <div class="socialBack container2">
+    <div class="socialBack container-fluid">
         <div class="social container">
             <p>© 2017 Brand All Rights Reserved.</p>
             <div class="socialBlockIcon">
@@ -256,6 +224,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="src/components/js/catalog.js"></script>
 </body>
 
 </html>

@@ -8,9 +8,11 @@
     .category {
         flex-direction: row;
         margin-top: 10px;
+        height: auto;
     }
     .product {
         width: 100%;
+        height: 45vh;
     }
     .featureBanner {
         width: 100%;
@@ -34,9 +36,11 @@
     .category {
         flex-direction: row;
         margin-top: 10px;
+        height: auto;
     }
     .product {
         width: 100%;
+        height: 45vh;
     }
     .featureBanner {
         width: 100%;
@@ -58,8 +62,20 @@
     .subscribeRight {
         width: 100%;
     }
+    .subscribePerson {
+        width: unset;
+        margin-top: 8px;
+    }
+    .subscribeForm {
+        width: unset;
+        height: unset;
+        margin-top: 20px;
+    }
+    .subscribeForm input {
+        margin-top: 0px;
+    }
 }
-@media (min-width: 576px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .topNav li a:not(:last-child) {
         margin-right: 15px;
     }
@@ -83,12 +99,24 @@
     .bannerText {
         top: 30px;
     }
+    .badge {
+        margin-top: 0;
+        width: unset;
+        height: unset;
+        background-color: #ffffff;
+        padding: 0;
+    }
     .category {
         flex-direction: row;
         margin-top: 10px;
+        height: auto;
     }
     .product {
-        width: 100%;
+        text-align: center;
+        height: 10vh;
+        background: none;
+        width: 50%;
+        
     }
     .featureBanner {
         width: 100%;
@@ -113,8 +141,21 @@
     .subscribeRight {
         width: 100%;
     }
+    .subscribePerson {
+        width: unset;
+        margin-top: 8px;
+    }
+    .subscribeForm {
+        width: unset;
+        height: unset;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .subscribeForm input {
+        margin-top: 0px;
+    }
 }
-@media (min-width: 300px) and (max-width: 576px) {
+/* @media (min-width: 300px) and (max-width: 576px) {
     .topNav li a:not(:last-child) {
         margin-right: 15px;
     }
@@ -185,4 +226,4 @@
     .subscribeRight {
         width: 100%;
     }
-}
+} */
