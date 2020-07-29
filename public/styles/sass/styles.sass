@@ -1,5 +1,7 @@
+@import "variables"
+@import "header", "footer";    
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
-$mainTextColor: #f16d7f
+
 * 
     margin: 0
     padding: 0
@@ -17,148 +19,20 @@ body p
     padding: 0px
 
     
-.container2 
-    width: 100%
+.container-fluid
     margin: auto
-    box-sizing: border-box
-
-.headerFix 
-    position: fixed
-    z-index: 9999
-    background-color: #ffffff
-    width: 100%
-
-
-.header 
-    height: 100px
-    display: flex
-    flex-direction: row
-    align-items: center
-    a
-        text-decoration: none
-    a:hover
-        color: #222222    
-
-.log
-    align-items: center
-    display: flex
-.logo 
-    width: 165px
-    line-height: 51px
-    text-transform: uppercase
-    background: url("../src/assets/img/logo.png") no-repeat
-    text-decoration: none
-    font-size: 27px
-    padding-left: 72px
-    color: #222222
-    margin-right: 30px
-    
-
-.logo span 
-    font-weight: 700
-    color: #f16d7f
-
-
-.search 
-    display: flex
-    align-items: center
-    border: 1px solid #e6e6e6
-    border-radius: 3px
-    height: 38px
-    overflow: hidden
-    font-size: 14px
-    width: 332px
-
-.searchBrowse 
-    padding: 14px
-    background-color: #f8f8f8
-    font-weight: 400
-    line-height: 38px
-
-
-.search 
-    
-    input 
-        height: inherit
-        border: none
-        outline: none
-        padding: 14px 16px
-        border-left: 1px solid #e6e6e6
-        border-right: 1px solid #e6e6e6
-
-
-    button 
-        height: inherit
-        border: none
-        background: none
-        padding: 12px
-    
-    
-
-.search .searchBrowse i 
-    color: #838383
-
-
-.search button i 
-    color: #a4a4a4
-
-
-.headerCart 
-    margin-right: 26px
-.accountCart
-    margin-left: auto
-
-.accountBtn 
-    border: none
-    background-color: #f16d7f
-    padding: 13px 19px
-    font-size: 15px
-    font-weight: 400
-    color: #ffffff
-.accountBtn:hover
-    background-color: darken($mainTextColor, 20%)
-
-.headerLine 
-    border-bottom: 1px solid #ececec
-
-.topNavWrap
-    box-shadow: 0px 10px 15px #e8e8e8
-.topNav 
-    height: 51px
-    font-weight: 700
-    font-size: 14px
-    display: flex
-    justify-content: center
-    align-items: center
-    flex-wrap: wrap
-    
-
-
-.topNav a 
-    text-decoration: none
-    color: #222222
-    text-transform: uppercase
-
-
-.topNav a:not(:last-child) 
-    margin-right: 45px
-
-
-.topNav a:hover 
-    color: $mainTextColor
+    padding: 0
 
 
 .topBanner 
     background-color: #e8e8e8
     padding-top: 150px
 
-
 .topMan 
     position: relative
     background: url("../src/assets/img/topHeaderBack.png") no-repeat
     background-position: left 600px top 10px
     height: 665px
-
 
 .bannerText 
     position: absolute
@@ -204,12 +78,15 @@ body p
     flex-direction: column
     flex-wrap: wrap
     align-items: center
-    justify-content: space-between
+    justify-content: space-around
     margin-top: 98px
+    height: 815px
+    
 
 
 .product 
     text-decoration: none
+    
 
 
 .product1 
@@ -302,39 +179,8 @@ body p
     width: 252px
     height: 352px
     position: relative
+    margin-bottom: 10px
     
-
-
-.itemsProduct1 
-    background: url("../src/assets/img/Layer_2.jpg") no-repeat, url("../src/assets/img/Background.png") no-repeat
-
-
-.itemsProduct2 
-    background: url("../src/assets/img/Layer_6.jpg") no-repeat, url("../src/assets/img/Background.png") no-repeat
-
-
-.itemsProduct3 
-    background: url("../src/assets/img/Layer_3.jpg") no-repeat, url("../src/assets/img/Background.png") no-repeat
-
-
-.itemsProduct4 
-    background: url("../src/assets/img/Layer_7.jpg") no-repeat, url("../src/assets/img/Background.png") no-repeat
-
-
-.itemsProduct5 
-    background: url("../src/assets/img/Layer_4.jpg") no-repeat, url("../src/assets/img/Background.png") no-repeat
-
-
-.itemsProduct6 
-    background: url("../src/assets/img/Layer_8.jpg") no-repeat, url("../src/assets/img/Background.png") no-repeat
-
-
-.itemsProduct7 
-    background: url("../src/assets/img/Layer_5.jpg") no-repeat, url("../src/assets/img/Background.png") no-repeat
-
-
-.itemsProduct8 
-    background: url("../src/assets/img/Layer_9.jpg") no-repeat, url("../src/assets/img/Background.png") no-repeat
 
 
 .itemsProduct :nth-child(1) 
@@ -420,9 +266,7 @@ body p
     background-size: cover
 
 
-.featureBox 
-    width: 373px
-    background-color: #222224
+
 
 
 .featureBannerText 
@@ -462,16 +306,18 @@ body p
     flex-direction: row
     flex-wrap: wrap
     align-items: flex-start
+    width: 373px
+    background-color: #222224
+    padding: 20px 0 20px 0
 
 
 .featureBox img 
-    margin-top: 48px
+   
     margin-left: 36px
 
 
 .featureBoxText 
     width: 219px
-    margin-top: 40px
     margin-left: 33px
 
 
@@ -506,7 +352,7 @@ body p
 
 .subscribeBanner 
     display: flex
-    flex-direction: column
+    flex-direction: row
     flex-wrap: wrap
     height: inherit
 
@@ -654,7 +500,7 @@ label[for="email"]
         border-radius: 0 23px 23px 0
         background-color: #f16d7f
         border: none
-        margin-left: -4px
+        margin-left: -6px
         color: #ffffff
         font-size: 14px
         font-weight: 400
@@ -664,16 +510,16 @@ label[for="email"]
         
 
 .footer 
-    height: 450px
+    height: auto
     display: flex
     flex-direction: row
     flex-wrap: wrap
+    justify-content: space-between
 
 
 .brand 
     display: flex
     flex-direction: column
-    width: 427px
     height: 260px
     overflow: hidden
     margin-top: 109px
@@ -692,7 +538,6 @@ label[for="email"]
     width: 102px
     display: flex
     flex-direction: column
-    margin-left: 64px
     margin-top: 109px
 
 
@@ -700,7 +545,6 @@ label[for="email"]
     width: 146px
     display: flex
     flex-direction: column
-    margin-left: 129px
     margin-top: 109px
 
 
@@ -708,75 +552,7 @@ label[for="email"]
     width: 154px
     display: flex
     flex-direction: column
-    margin-left: 80px
     margin-top: 109px
 
-.footer
-    a:hover
-        color: $mainTextColor !important
-        text-decoration: none
 
-.footer h2 
-    color: #f16d7f
-    font-size: 18px
-    font-weight: 700
-    text-transform: uppercase
-    letter-spacing: 0.45px
-
-
-.footerLink 
-    color: #898989
-    font-size: 16px
-    font-weight: 400
-    letter-spacing: 0.4px
-    line-height: 42px
-    text-decoration: none
-
-    
-
-.footerLink:hover 
-    opacity: 0.5
-
-
-.socialBack 
-    background-color: #e6e6e6
-
-
-.social 
-    height: 79px
-    display: flex
-    flex-direction: row
-    flex-wrap: wrap
-    align-items: center
-    justify-content: space-between
-
-
-.social p 
-    color: #7a7a7a
-    font-size: 16px
-    font-weight: 400
-    letter-spacing: 0.4px
-    line-height: 32px
-
-
-.socialBlockIcon 
-    display: flex
-    a:hover
-        color: #fff !important
-
-.socialIcon 
-    width: 32px
-    height: 32px
-    background: #ffffff
-    margin-right: 9px
-    text-align: center
-    font-size: 16px
-    line-height: 32px
-    color: #b2b2b2
-    transition: all 0.5s
-    
-
-.socialIcon:hover 
-    background-color: $mainTextColor
-    transform: scale(1.5) translateY(-10px)
     
